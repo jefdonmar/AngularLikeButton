@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+  <title>Hello, World</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+  
+  <div class="container">
+    
+    <h1>I think I like it</h1>
+
+    <button 
+
+      ng-controller="LikeButtonController"
+      ng-click="count = count +1"
+      ng-init="count = 0">
+
+      <span>{{ count }}</span>
+      <span>{{ counter(count) }}</span>
+
+    </button>
+
+
+
+
+
+  </div>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
