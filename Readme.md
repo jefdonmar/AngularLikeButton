@@ -2,7 +2,7 @@
 
 In this repository, I build a basic like button function using AngularJS.
 
-Here is a link to my deployment: foolish-wax.surge.sh
+Here is a link to my deployment: tasty-ticket.surge.sh
 
 I hope you enjoy!
 
