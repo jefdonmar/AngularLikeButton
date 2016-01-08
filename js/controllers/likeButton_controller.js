@@ -1,13 +1,16 @@
 let LikeButtonController = function ($scope) {
 
-  $scope.counter = function (count){
+  $scope.words = 'like';
+  $scope.words = 'likes';
 
-    if (count === 1){
-      return 'like';
+  $scope.doSomething = function () {
+    $scope.count = $scope.count + 1;
+
+    if ($scope.count === 1) {
+      $scope.words = 'like';
     } else {
-      return 'likes';
+      $scope.words = 'likes';
     }
-
   };
 
 };
