@@ -1,6 +1,10 @@
-## Welcome to My Project
+## Welcome to My Angular Like Button
 
-> I am your Readme.md file, you should probably update me.
+In this repository, I build a basic like button function using AngularJS.
+
+Here is a link to my deployment: foolish-wax.surge.sh
+
+I hope you enjoy!
 
 
 ## Usage

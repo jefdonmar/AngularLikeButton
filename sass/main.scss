@@ -4,10 +4,29 @@
 @import 'foundation';
 
 body {
-  background: #e2ebf3;
+  background: black;
+  max-width: 800px;
 }
 
 .container {
+  margin-top: 30%;
+  margin-left: 30%;
+  margin-right: 30%;
   text-align: center;
+  border: 5px solid red;
+  background: #e2ebf3;
+
+  h {
+    font-weight: bold;
+  }
+
+  img {
+    padding: 20px auto;
+    margin-bottom: 80px;
+  }
+
+  button {
+
+  }
   
 }

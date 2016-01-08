@@ -1,6 +1,5 @@
 let LikeButtonController = function ($scope) {
 
-
   $scope.doSomething = function () {
     $scope.count = $scope.count + 1;
   };
